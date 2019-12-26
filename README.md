@@ -1,4 +1,4 @@
 # CodeAlgorithm
-Code written when solving the problem.
+Code written when solving algorithm problems.
 
 
