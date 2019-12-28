@@ -130,11 +130,11 @@ class Solution {
                 hashMap.put(s.charAt(i),i);
                 pans++;
             }
-            //System.out.println(s.charAt(i) + " " + pans);
         }
         ans = Math.max(ans,pans);
         return ans;
     }
+
 
     public static void main(String[] args)
     {
