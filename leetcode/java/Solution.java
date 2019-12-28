@@ -1,3 +1,5 @@
+import java.util.HashMap;
+
 class Solution {
     int reverse(int x) {
         int x1 = Math.abs(x);
@@ -102,10 +104,41 @@ class Solution {
         node.next = node.next.next;
     }
 
+    /*
+    3. 无重复字符的最长子串
+    给定一个字符串，请你找出其中不含有重复字符的 最长子串 的长度。
+     */
+    public int lengthOfLongestSubstring(String s) {
+        int len = s.length();
+        int ans = 0,pans = 0;
+        HashMap<Character,Integer> hashMap = new HashMap<>();
+        for(int i = 0;i < len;i++)
+        {
+            if(hashMap.containsKey(s.charAt(i)))
+            {
+                int lastx = hashMap.get(s.charAt(i));
+                hashMap.clear();
+                ans = Math.max(ans,pans);
+                pans = 0;
+                for(int j = lastx+1;j <= i;j++)
+                {
+                    hashMap.put(s.charAt(j),j);
+                    pans++;
+                }
+            }
+            else {
+                hashMap.put(s.charAt(i),i);
+                pans++;
+            }
+            //System.out.println(s.charAt(i) + " " + pans);
+        }
+        ans = Math.max(ans,pans);
+        return ans;
+    }
 
     public static void main(String[] args)
     {
         Solution solution = new Solution();
-        System.out.println(solution.defangIPaddr("1.1.1.1"));
+        System.out.println(solution.lengthOfLongestSubstring("abcabcbb"));
     }
 };
