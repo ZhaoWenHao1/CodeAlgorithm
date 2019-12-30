@@ -1,6 +1,6 @@
-import java.util.HashMap;
-import java.util.Stack;
-import java.util.Vector;
+import java.io.*;
+import java.lang.reflect.Array;
+import java.util.*;
 
 class Solution {
     int reverse(int x) {
@@ -310,13 +310,262 @@ class Solution {
 
     }
 
+    /*
+    15. 三数之和
+    给定一个包含 n 个整数的数组 nums，判断 nums 中是否存在三个元素 a，b，c ，使得 a + b + c = 0 ？找出所有满足条件且不重复的三元组。
+注意：答案中不可以包含重复的三元组。
+     */
+    void thrSumDfs(List<List<Integer>> ret,List<Integer> ans ,int[] nums, int pos,int n,int sum)//pos 表示当前在nums的下标，n表示在寻找3个数中的第几个数
+    {
+        if(n == 3)
+        {
+            if(sum == 0)
+            {
+                //查找结果集里是否有当前的结果
+                int find = 0;
+                if(ans.size() != 3)
+                    return;
+                for(int j = 0;j < ret.size();j++)
+                {
+                    int isEqual = 1;
+                    for(int k = 0;k < 3;k++)//检查ret[j]是否为ans相同
+                    {
+                        if(ret.get(j).size() < 3)
+                            return ;
+                        if(ans.get(k) != ret.get(j).get(k))
+                        {
+                            isEqual = 0;
+                            break;
+                        }
+                    }
+                    if(isEqual == 1)//找到有相等的
+                    {
+                        find = 1;
+                        break;
+                    }
+
+                }
+                if(find == 0)//没找到相等的
+                {
+                    List<Integer> tmp1 = new ArrayList<>();
+                    tmp1.addAll(ans);
+                    ret.add(tmp1);
+                }
+            }
+            return;
+        }
+        if(pos >= nums.length )
+            return ;
+        for(int i = pos;i < nums.length-2+n;i++)
+        {
+            ans.add(nums[i]);
+            thrSumDfs(ret,ans,nums,i+1,n+1,sum+nums[i]);
+            ans.remove(n);
+        }
+    }
+    public List<List<Integer>> threeSum1(int[] nums) {
+        Arrays.sort(nums);
+        List<List<Integer>> ret = new ArrayList<List<Integer>>();
+
+        for(int i = 0;i < nums.length-2;i++)
+        {
+            List<Integer> tmp = new ArrayList<>();
+            tmp.add(nums[i]);
+            thrSumDfs(ret,tmp,nums,i+1,1,nums[i]);
+            tmp.remove(0);
+        }
+        return ret;
+    }
+
+    /*
+        1.两数之和
+     */
+    public int[] twoSum(int[] nums, int target) {
+        HashMap<Integer,Integer> hashMap = new HashMap<>();//key nums[i], value i
+        int[] ans = new int[2];
+        for(int i = 0;i < nums.length;i++)
+        {
+            if(hashMap.containsKey(nums[i]))
+            {
+                if(nums[i]*2 == target)
+                {
+                    ans[0] = hashMap.get(nums[i]);
+                    ans[1] = i;
+                    return ans;
+                }
+                //否则肯定不是答案
+            }
+            else if(hashMap.containsKey(target-nums[i]))
+            {
+                ans[0] = hashMap.get(target-nums[i]);
+                ans[1] = i;
+                return ans;
+            }
+            else
+            {
+                hashMap.put(nums[i],i);
+            }
+        }
+        return ans;
+
+    }
+    /*
+    排序+双层循环
+    O(n^2logn)  458ms
+     */
+    public List<List<Integer>> threeSum(int[] nums) {
+        Arrays.sort(nums);
+        HashSet<String> hashSet = new HashSet<>();
+        List<List<Integer>> ret = new ArrayList<List<Integer>>();
+        for(int i = 0;i < nums.length-2;i++)
+        {
+            if(nums[i] > 0) return  ret;
+            for(int j = i+1;j < nums.length-1;j++)
+            {
+                int idx = Arrays.binarySearch(nums,j+1, nums.length,-1*(nums[i]+nums[j]));
+                if(idx > j)
+                {
+                    List<Integer> tmp = new ArrayList<>();
+                    tmp.add(nums[i]);
+                    tmp.add(nums[j]);
+                    tmp.add(nums[idx]);
+                    if(hashSet.add(nums[i]+" "+nums[j])) // O(logN) 再加构造字符串的时间
+                        ret.add(tmp);
+                }
+            }
+        }
+        return ret;
+    }
+
+    /*
+    排序+双指针
+    O(n^2)  34ms
+    1. 特判，对于数组长度 n，如果数组为 null 或者数组长度小于 3，返回 []。
+    2. 对数组进行排序。
+    3. 遍历排序后数组：
+        - 若 nums[i]>0：因为已经排序好，所以后面不可能有三个数加和等于 0，直接返回结果。
+        - 对于重复元素：跳过，避免出现重复解
+        - 令左指针 L=i+1，右指针 R=n-1，当 L<R 时，执行循环：
+            - 当 nums[i]+nums[L]+nums[R]==0，执行循环，判断左界和右界
+              是否和下一位置重复，去除重复解。并同时将 L,R 移到下一位置，寻找新的解
+            - 若和大于 0，说明 nums[R] 太大，R 左移
+            - 若和小于 0，说明 nums[L] 太小，L 右移
+     */
+    public List<List<Integer>> threeSum2(int[] nums) {
+        List<List<Integer>> ret = new ArrayList<List<Integer>>();
+        if(nums == null || nums.length < 3)
+        {
+            return ret;
+        }
+        Arrays.sort(nums);
+        for(int i = 0; i < nums.length-2;i++)
+        {
+            if(nums[i] > 0) return ret;
+            if(i > 0 && nums[i] == nums[i-1])   continue;//这里正确是由于如果有一个答案包含num[i-1] 和num[i] 则在上一轮中该答案已经给出
+            int L = i+1,R = nums.length-1;//第二个和第三个数
+            while(L < R)
+            {
+                if(nums[i]+nums[L]+nums[R] == 0)
+                {
+                    List<Integer> tmp = new ArrayList<>();
+                    tmp.add(nums[i]);
+                    tmp.add(nums[L]);
+                    tmp.add(nums[R]);
+                    ret.add(tmp);
+                    while(L < R && nums[L] == nums[++L]) ;
+                    while(L < R && nums[R] == nums[--R]) ;
+                }
+                else if(nums[i]+nums[L]+nums[R] < 0)
+                {
+                    L++;
+                }
+                else {
+                    R--;
+                }
+            }
+        }
+        return ret;
+    }
+
+    
+    public int threeSumClosest(int[] nums, int target) {
+
+        }
+    /**
+     * 功能：Java读取txt文件的内容 步骤：1：先获得文件句柄 2：获得文件句柄当做是输入一个字节码流，需要对这个输入流进行读取
+     * 3：读取到输入流后，需要读取生成字节流 4：一行一行的输出。readline()。 备注：需要考虑的是异常情况
+     *
+     * @param filePath
+     *            文件路径[到达文件:如： D:\aa.txt]
+     * @return 将这个文件按照每一行切割成数组存放到list中。
+     */
+    public static List<String> readTxtFileIntoStringArrList(String filePath)
+    {
+        List<String> list = new ArrayList<String>();
+        try
+        {
+            String encoding = "GBK";
+            File file = new File(filePath);
+            if (file.isFile() && file.exists())
+            { // 判断文件是否存在
+                InputStreamReader read = new InputStreamReader(
+                        new FileInputStream(file), encoding);// 考虑到编码格式
+                BufferedReader bufferedReader = new BufferedReader(read);
+                String lineTxt = null;
+
+                while ((lineTxt = bufferedReader.readLine()) != null)
+                {
+                    list.add(lineTxt);
+                }
+                bufferedReader.close();
+                read.close();
+            }
+            else
+            {
+                System.out.println("找不到指定的文件");
+            }
+        }
+        catch (Exception e)
+        {
+            System.out.println("读取文件内容出错");
+            e.printStackTrace();
+        }
+
+        return list;
+    }
+
     public static void main(String[] args)
     {
-        int[] n1 = {1,2},n2 = {1,8,6,2,5,4,8,3,7},n3 = {1,2,1};
+        int[] n1 = {-1, 0, 1, 2, -1, -4};
+        Vector<Integer> vec = new Vector<>();
+        Integer[] n2 = null;
+        //Integer[] n2 = vec.toArray(new Integer[vec.size()]);
         Solution solution = new Solution();
-        System.out.println(solution.maxArea(n1));
-        System.out.println(solution.maxArea(n2));
-        System.out.println(solution.maxArea(n3));
+        List<String> list = Solution.readTxtFileIntoStringArrList("E:\\workspace\\CodeAlgorithm\\leetcode\\java\\data.txt");
+        if(list.size() >= 1)
+        {
+            int len = list.get(0).length();
+            String[] str = list.get(0).substring(1,len-1).split(",");
+            System.out.println(str.length);
+            for(int i = 0;i < str.length;i++)
+            {
+                vec.add(Integer.valueOf(str[i]));
+            }
+            n2 = vec.toArray(new Integer[vec.size()]);
+            for(int i = 0;i < n2.length;i++)
+            {
+                System.out.print(n2[i]+"\t");
+            }
+        }
+        System.out.println();
+        int[] n3 = new int[n2.length];
+        for(int i = 0;i < n2.length;i++)
+        {
+            n3[i] = n2[i].intValue();
+        }
+        System.out.println(solution.threeSum2(n1));
+        int[] n4 = {0,0,0};
+        System.out.println(solution.threeSum(n4));
         //System.out.println("PAHNAPLSIIGYIR");
     }
 };
