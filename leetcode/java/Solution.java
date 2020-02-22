@@ -487,10 +487,320 @@ class Solution {
         return ret;
     }
 
-    
-    public int threeSumClosest(int[] nums, int target) {
 
+    public int threeSumClosest(int[] nums, int target) {
+            Arrays.sort(nums);
+            if(nums.length < 3)
+                return 0;
+            int ret = nums[0]+nums[1]+nums[2];
+            for(int i = 0;i < nums.length-2;i++)
+            {
+                int L = i+1, R = nums.length-1;
+                while( L < R)
+                {
+                    int dif = nums[i]+nums[L]+nums[R]-target;
+                    if(dif == 0)
+                        return target;
+                    else if(dif < 0)
+                    {
+                        L++;
+                    }
+                    else
+                        R--;
+                    if(Math.abs(ret-target) > Math.abs(dif))
+                        ret = dif+target;
+                }
+            }
+            return ret;
         }
+        /*
+        给定一个排序数组，你需要在原地删除重复出现的元素，使得每个元素只出现一次，返回移除后数组的新长度。
+
+        不要使用额外的数组空间，你必须在原地修改输入数组并在使用 O(1) 额外空间的条件下完成。
+         */
+    public int removeDuplicates(int[] nums) {
+            if(nums.length <= 1) return nums.length;
+            int vaild = 0, pos = 1;//vaild表示最终数组已确定的下标，pos表示nums的下标
+            for(;pos < nums.length;pos++)
+            {
+                if(nums[pos] != nums[vaild])
+                    nums[++vaild] = nums[pos];
+
+            }
+            return vaild+1;
+        }
+
+    public void merge(int[] nums1, int m, int[] nums2, int n) {
+            int[] tmp = new int[m];
+            for(int i = 0;i < m;i++)
+                tmp[i] = nums1[i];
+            int i = 0, j = 0,cn = 0;
+            while(i < m && j < n)
+            {
+                if(tmp[i] <= nums2[j])
+                {
+                    nums1[cn++] = tmp[i++];
+                }
+                else
+                {
+                    nums1[cn++] = nums2[j++];
+                }
+            }
+            while(i < m) nums1[cn++] = tmp[i++];
+            while(j < n) nums1[cn++] = nums2[j++];
+        }
+
+        /*
+        给定一个非空整数数组，除了某个元素只出现一次以外，其余每个元素均出现两次。找出那个只出现了一次的元素。
+        不使用额外空间来实现
+
+        1. 哈希
+        2. 2∗(a+b+c)−(a+a+b+b+c)=c
+        3. 异或
+         */
+    public int singleNumber(int[] nums) {
+
+        /*Hash
+            HashSet<Integer> hashSet = new HashSet<>();
+            int ans = 0;
+            for(int i = 0;i < nums.length;i++)
+            {
+                if(hashSet.contains(nums[i]))
+                {
+                    hashSet.remove(nums[i]);
+                    ans -=nums[i];
+                }
+
+                else
+                {
+                    hashSet.add(nums[i]);
+                    ans += nums[i];
+                }
+            }
+            return ans;
+          */
+        /*
+        2∗(a+b+c)−(a+a+b+b+c)=c
+         */
+            HashSet<Integer> hashSet = new HashSet<>();
+            int ans = 0, sum = 0;
+            for(int i = 0;i < nums.length;i++)
+            {
+                hashSet.add(nums[i]);
+                sum +=nums[i];
+            }
+            for(Integer it : hashSet)
+            {
+                ans += it*2;
+            }
+            return ans-sum;
+
+            /*
+            异或
+             */
+            /*int ans = 0;
+            for(int i = 0;i < nums.length;i++)
+            {
+                ans ^= nums[i];
+            }
+            return ans;*/
+        }
+
+    public int maxDepth(TreeNode root) {
+         if(root == null)
+             return 0;
+         int leftDepth = maxDepth(root.left);
+         int rightDepth = maxDepth(root.right);
+         return Math.max(leftDepth,rightDepth)+1;
+        }
+
+    public String countAndSay(int n) {
+               String s = "1";
+               for(int i = 0;i < n;i++)
+               {
+                   StringBuilder ss = new StringBuilder();
+                   int len = s.length();
+                   int j = 0;
+                   while (j < len) {
+                       int k = j;
+                       while( k+1 < len && s.charAt(k) == s.charAt(k+1)) k++;
+                       int tot = k-j+1;
+                       ss.append(tot);
+                       ss.append(s.charAt(k));
+                       j = k+1;
+                   }
+                   s = ss.toString();
+                   System.out.println(s);
+               }
+               return s;
+           }
+    public int[] decompressRLElist(int[] nums) {
+            int sum = 0;
+            for(int i = 0;i < nums.length;i +=2)
+            {
+                sum +=nums[i];
+            }
+            int[] res = new int[sum];
+            int pos = 0;
+            for(int i = 0;i < nums.length;i +=2)
+            {
+                for(int j = 0;j < nums[i];j++)
+                {
+                    res[pos++] = nums[i+1];
+                }
+            }
+            return res;
+        }
+
+    public int balancedStringSplit(String s) {
+            int flag = 0,res = 0;
+            for(int i = 0;i < s.length();i++)
+            {
+                if(s.charAt(i)=='L')
+                {
+                    flag--;
+                }
+                else
+                    flag++;
+                if(flag == 0)
+                    res++;
+            }
+            return res;
+        }
+
+    public int maximum69Number (int num) {
+            StringBuilder s = new StringBuilder(String.valueOf(num));
+            for(int i = 0;i < s.length();i++)
+            {
+                if(s.charAt(i) == '6')
+                {
+                    s.replace(i,i+1,"9");
+                    break;
+                }
+            }
+            return Integer.valueOf(s.toString());
+        }
+
+    public String removeOuterParentheses(String S) {
+            char[] sc = S.toCharArray();
+            int start = 0, end = 1, flag = 1,sum = 0;
+            while(end < sc.length)
+            {
+                if(sc[end] == '(')
+                {
+                    flag++;
+                }
+                else
+                {
+                    flag--;
+                }
+                if(flag == 0)
+                {
+                    sc[start] = '-';
+                    sc[end] = '-';
+                    sum++;
+                    start = end+1;
+                    end +=2;
+                    flag=1;
+                }
+                else
+                    end++;
+            }
+            char[] res = new char[sc.length-2*sum];
+            int j = 0;
+            for(int i = 0;i < sc.length && j < res.length;i++)
+            {
+                if(sc[i]!='-')
+                    res[j++] = sc[i];
+            }
+            return new String(res);
+        }
+        public int getOpti(int[][] matrix,int[][] res, int x, int y)//求得res[x][y],并返回res[x][y]
+        {
+            int[][] steps = {{-1,0},{1,0},{0,-1},{0,1}};
+            if(res[x][y] >= 0 ) return res[x][y];
+            if(matrix[x][y] == 0)
+            {
+                res[x][y] = 0;
+                return 0;
+            }
+            else
+                res[x][y] = -2;//待求
+            int m = matrix.length,n = matrix[0].length;
+            int ans = m + n;
+            for(int k = 0;k < 4;k++)
+            {
+                int dx = steps[k][0],dy = steps[k][1];
+                int cx = x+dx, cy = y+dy;
+                if(cx >= 0 && cx < m && cy >= 0 && cy < n)
+                {
+                    int tmp;
+                    if(res[cx][cy] >= 0)
+                        tmp = res[cx][cy];
+                    if(res[cx][cy] == -2)
+                        continue;
+                    else
+                    {
+                        tmp = getOpti(matrix,res,cx,cy);
+                    }
+                    ans = Math.min(ans, tmp+1);
+                }
+            }
+            res[x][y] = ans;
+            return ans;
+        }
+
+        //第二种方法： 将0作为第一层节点 进行bfs搜索
+        /*public int[][] updateMatrix(int[][] matrix) {
+                if(matrix.length < 1) return new int[0][0];
+                int m = matrix.length,n = matrix[0].length;
+                int[][] res = new int[m][n];
+                for(int i = 0;i < m;i++)
+                {
+                    for(int j = 0;j < n;j++)
+                    {
+                        res[i][j] = -1;
+                    }
+                }
+                int[][] steps = {{-1,0},{1,0},{0,-1},{0,1}};
+                for(int i = 0;i < m;i++)
+                {
+                    for(int j = 0;j < n;j++)
+                    {
+                        if(res[i][j] >= 0 ) continue;
+                        if(matrix[i][j] == 0)
+                        {
+                            res[i][j] = 0;
+                        }
+                        else
+                        {
+                            res[i][j] = -2;//待求
+                            getOpti(matrix,res,i,j);
+                        }
+
+                    }
+
+                }
+                return res;
+            }*/
+        //Map.Entry 实现
+       /* public int[][] updateMatrix(int[][] matrix) {
+            if(matrix.length < 1) return new int[0][0];
+            int m = matrix.length,n = matrix[0].length;
+            int[][] stat = new int[m][n];
+            for(int i = 0;i < m;i++)
+            {
+                for(int j = 0;j < n;j++)
+                {
+                    stat[i][j] = -1;//未访问过
+                }
+            }
+            //Map.Entry<Integer,Integer> entry = new AbstractMap.SimpleEntry<Integer, Integer>(1,2);
+
+            Queue<Map.Entry<Integer,Integer>> queue = new LinkedList<Map.Entry<Integer, Integer>>();
+
+
+        }*/
     /**
      * 功能：Java读取txt文件的内容 步骤：1：先获得文件句柄 2：获得文件句柄当做是输入一个字节码流，需要对这个输入流进行读取
      * 3：读取到输入流后，需要读取生成字节流 4：一行一行的输出。readline()。 备注：需要考虑的是异常情况
@@ -536,36 +846,53 @@ class Solution {
 
     public static void main(String[] args)
     {
-        int[] n1 = {-1, 0, 1, 2, -1, -4};
-        Vector<Integer> vec = new Vector<>();
-        Integer[] n2 = null;
-        //Integer[] n2 = vec.toArray(new Integer[vec.size()]);
-        Solution solution = new Solution();
-        List<String> list = Solution.readTxtFileIntoStringArrList("E:\\workspace\\CodeAlgorithm\\leetcode\\java\\data.txt");
-        if(list.size() >= 1)
-        {
-            int len = list.get(0).length();
-            String[] str = list.get(0).substring(1,len-1).split(",");
-            System.out.println(str.length);
-            for(int i = 0;i < str.length;i++)
-            {
-                vec.add(Integer.valueOf(str[i]));
-            }
-            n2 = vec.toArray(new Integer[vec.size()]);
-            for(int i = 0;i < n2.length;i++)
-            {
-                System.out.print(n2[i]+"\t");
-            }
-        }
-        System.out.println();
-        int[] n3 = new int[n2.length];
-        for(int i = 0;i < n2.length;i++)
-        {
-            n3[i] = n2[i].intValue();
-        }
-        System.out.println(solution.threeSum2(n1));
-        int[] n4 = {0,0,0};
-        System.out.println(solution.threeSum(n4));
+//        int[] n1 = {-1, 0, 1, 2, -1, -4};
+//        Vector<Integer> vec = new Vector<>();
+//        Integer[] n2 = null;
+//        //Integer[] n2 = vec.toArray(new Integer[vec.size()]);
+//        Solution solution = new Solution();
+//        List<String> list = Solution.readTxtFileIntoStringArrList("E:\\workspace\\CodeAlgorithm\\leetcode\\java\\data.txt");
+//        if(list.size() >= 1)
+//        {
+//            int len = list.get(0).length();
+//            String[] str = list.get(0).substring(1,len-1).split(",");
+//            System.out.println(str.length);
+//            for(int i = 0;i < str.length;i++)
+//            {
+//                vec.add(Integer.valueOf(str[i]));
+//            }
+//            n2 = vec.toArray(new Integer[vec.size()]);
+//            for(int i = 0;i < n2.length;i++)
+//            {
+//                System.out.print(n2[i]+"\t");
+//            }
+//        }
+//        System.out.println();
+//        int[] n3 = new int[n2.length];
+//        for(int i = 0;i < n2.length;i++)
+//        {
+//            n3[i] = n2[i].intValue();
+//        }
+//        System.out.println(solution.threeSum2(n1));
+       int[][] nums =  {{1,0,1,1,0,0,1,0,0,1},{0,1,1,0,1,0,1,0,1,1},{0,0,1,0,1,0,0,1,0,0},{1,0,1,0,1,1,1,1,1,1},{0,1,0,1,1,0,0,0,0,1},{0,0,1,0,1,1,1,0,1,0},{0,1,0,1,0,1,0,0,1,1},{1,0,0,0,1,1,1,1,0,1},{1,1,1,1,1,1,1,0,1,0},{1,1,1,1,0,1,0,0,1,1}};
+       for(int i = 0;i < nums.length;i++)
+       {
+           for(int j = 0;j < nums[0].length;j++)
+           {
+               System.out.print(nums[i][j]+" ");
+           }
+           System.out.println();
+       }
+        /*Solution solution = new Solution();
+        int[] nums = {1,2,3,4};
+        System.out.println(solution.maximum69Number(9669));*/
+//        int[] nums1 = {1,2,3,0,0,0},nums2 = {2,5,6};
+//        solution.merge(nums1,3,nums2,3);
+//        for(int i = 0;i < nums1.length;i++)
+//        {
+//            System.out.print(nums1[i] + " ");
+//        }
+//        System.out.println();
         //System.out.println("PAHNAPLSIIGYIR");
     }
 };
