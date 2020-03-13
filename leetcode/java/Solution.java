@@ -2,6 +2,11 @@ import java.io.*;
 import java.lang.reflect.Array;
 import java.util.*;
 
+class ListNode {
+          int val;
+          ListNode next;
+          ListNode(int x) { val = x; }
+      }
 class Solution {
     int reverse(int x) {
         int x1 = Math.abs(x);

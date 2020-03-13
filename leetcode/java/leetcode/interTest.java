@@ -1,3 +1,5 @@
+package leetcode;
+
 public class interTest {
     public static void main(String[] args) {
         Integer i01 = 59;
