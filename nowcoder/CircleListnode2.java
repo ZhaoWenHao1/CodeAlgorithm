@@ -10,14 +10,7 @@ import java.util.Set;
  * https://blog.csdn.net/sinat_35261315/article/details/79205157
  */
 
-class ListNode {
-    int val;
-    ListNode next;
-    ListNode(int x) {
-        val = x;
-        next = null;
-    }
-}
+
 
 public class CircleListnode2 {
     public ListNode detectCycle(ListNode head) {
