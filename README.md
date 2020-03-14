@@ -15,7 +15,7 @@ Code written when solving algorithm problems.
 
 1. 袖珍计算器算法 O(1) O(1) 时间 空间
 
-   ![1584114984986](E:\workspace\CodeAlgorithm\1584114984986.png)
+   ![1584114984986](https://i.loli.net/2020/03/14/6bIGWFzkAQvaEhy.png)
 
 2. 二分查找 O(logN) O(1)
 
@@ -24,11 +24,11 @@ Code written when solving algorithm problems.
 
 3. 递归+位操作
 
-   <img src="E:\workspace\CodeAlgorithm\1584116589963.png" alt="1584116589963"  />
+   <img src="https://i.loli.net/2020/03/14/Y3ao7rp4MvwHFqG.png" alt="1584116589963"  />
 
-![1584116605402](E:\workspace\CodeAlgorithm\1584116605402.png)
+![1584116605402](https://i.loli.net/2020/03/14/ih8uWMLsPfkljIG.png)
 
 4. 牛顿法
 
-   ![1584116746354](E:\workspace\CodeAlgorithm\1584116746354.png)
+   ![1584116746354](https://i.loli.net/2020/03/14/PtQvXogCked7WrI.png)
 
