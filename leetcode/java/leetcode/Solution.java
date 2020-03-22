@@ -93,13 +93,105 @@ public class Solution {
         Arrays.sort(anss);
         return anss;
     }
+
+    public int[] searchRange(int[] nums, int target) {
+        int[] ans = new int[2];
+        int low = 0, high = nums.length-1;
+        int idx = -1;
+        while(low <= high){
+            int mid = (low+high)/2;
+            if(nums[mid] < target){
+                low = mid+1;
+            }
+            else if(nums[mid] > target)
+            {
+                high = mid-1;
+            }
+            else
+            {
+                idx = mid;
+                break;
+            }
+        }
+        if(idx == -1){
+            ans[0] = -1;
+            ans[1] = -1;
+        }
+        else{
+            for(int i = idx;i >= 0;i--){
+                if(nums[i] == nums[idx]){
+                    ans[0] = i;
+                }
+                else
+                    break;
+            }
+            for(int i = idx;i < nums.length;i++){
+                if(nums[i] == nums[idx]){
+                    ans[1] = i;
+                }
+                else
+                    break;
+            }
+        }
+        return ans;
+    }
+
+    public List<List<Integer>> permute(int[] nums) {
+        List<List<Integer>> ans = new ArrayList<>();
+        int[] f = new int[nums.length];
+        for(int i = 0;i < f.length;i++)
+            f[i] = 0;
+        List<Integer> tem = new ArrayList<>(nums.length);
+        myAdd(ans,tem,nums,f,nums.length);
+        return ans;
+    }
+    void myAdd(List<List<Integer>> ans, List<Integer> res, int[] nums, int[] f,int last){
+        // System.out.println("myadd");
+        if(last == 0){
+            List<Integer> t = new ArrayList<>(res);
+            ans.add(t);
+            return;
+        }
+        for(int i = 0;i < nums.length;i++){
+            if(f[i] == 1)
+                continue;
+            res.add(nums[i]);
+            f[i] = 1;
+            myAdd(ans,res,nums,f,last-1);
+            f[i] = 0;
+            res.remove(res.size()-1);
+        }
+    }
+
+    public int uniquePaths(int m, int n) {
+        int[][] f = new int[m][n];
+        for(int i = 0;i < m;i++){
+            for(int j = 0;j < n;j++){
+                f[i][j] = 0;
+            }
+        }
+        for(int i = 0;i < n;i++)
+            f[0][i] = 1;
+        for(int i = 1;i < m;i++){
+            for(int j = 0;j < n;j++){
+                f[i][j] = f[i-1][j];
+                if(j > 0){
+                    f[i][j] += f[i][j-1];
+                }
+            }
+        }
+        return f[m-1][n-1];
+    }
+
+
+    /*public int minimumTotal(List<List<Integer>> triangle) {
+
+    }*/
+
     public static void main(String[] args) {
         Solution solution = new Solution();
-        int[] arr = {0,1,1,2,4,4,1,3,3,2};
-        int[] ans = solution.getLeastNumbers(arr,6);
-        for(int i = 0;i < 6;i++){
-            System.out.print(ans[i]+" ");
-        }
+        int[] arr = {1,2,3};
+        System.out.println(solution.permute(arr));
 
         PriorityQueue<Integer> maxHeap = new PriorityQueue<>(new Comparator<Integer>() {
             @Override

@@ -1,4 +1,4 @@
-package leetcode;
+
 
 import java.util.Scanner;
 
@@ -21,8 +21,8 @@ public class Divide {
         // 都改为负号是因为int 的范围是[2^32, 2^32-1]，如果a是-2^32，转为正数时将会溢出
         //System.out.println(a + " " + b);
         if(a > b) return 0;
-
-        return sign*div(a,b);
+        int ans = div(a,b);
+        return sign == -1 ? -ans : ans;
     }
     int div(int a, int b)
     {
