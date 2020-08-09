@@ -1,6 +1,8 @@
 # CodeAlgorithm
 Code written when solving algorithm problems.
 
+
+
 ## leetcode
 
 #### [29. 两数相除](https://leetcode-cn.com/problems/divide-two-integers/)
@@ -101,3 +103,20 @@ public void moveZeroes(int[] nums) {
 注意事项
 
 虽然 A[i] 的范围为 [0, 40000)，但我们有可能会将数据递增到 40000 的两倍 80000。这是因为在最坏情况下，数组 A 中有 40000 个 40000，这样要使得数组值唯一，需要将其递增为 [40000, 40001, ..., 79999]，因此用来统计的数组需要开到 80000。
+
+[code](https://github.com/ZhaoWenHao1/CodeAlgorithm/blob/master/leetcode/java/leetcode/MinIncrementForUnique.java)
+#### [820. 单词的压缩编码](https://leetcode-cn.com/problems/short-encoding-of-words/)
+字典树！！！
+模糊搜索！！
+
+#### [887. 鸡蛋掉落](https://leetcode-cn.com/problems/super-egg-drop/)[hard]
+
+https://leetcode-cn.com/problems/super-egg-drop/solution/ji-dan-diao-luo-by-leetcode-solution/
+
+
+
+#### [1. 两数之和](https://leetcode-cn.com/problems/two-sum/)
+
+#### [15. 三数之和](https://leetcode-cn.com/problems/3sum/)
+
+#### [18. 四数之和](https://leetcode-cn.com/problems/4sum/)

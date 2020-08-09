@@ -1,27 +1,69 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="GROUP_BY_SEVERITY" value="true" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="9cbd8c0f-0b04-495d-a4e0-85b6cfbb82ae" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/MaxGrade.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/MinStack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/MyCode4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/Tools.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/TreeNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/TxtHandle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/deleteNum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/interTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/jinzhi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/pokerCompare.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/random.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/shudu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/simpleErrorRecord.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/stringHandle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/java/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/production/java/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/output/production/java/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/production/java/Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/output/production/java/Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/leetcode/FourSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/leetcode/PermuteUnique.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/leetcode/SuperEggDrop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/leetcode/Tools.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/leetcode/TrieTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/leetcode/kuaishou/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/leetcode/pinduoduo/Game.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/leetcode/pinduoduo/LuckyNum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/leetcode/pinduoduo/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/leetcode/zijie/CutOff.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/leetcode/zijie/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/leetcode/zijie/Mubang.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/leetcode/zijie/Stand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/xiecheng/T1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/xiecheng/t3/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/Solution.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/Tools.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/Tools.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/leetcode/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/leetcode/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/leetcode/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/leetcode/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/production/java/.idea/java.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/CodeAlgorithm.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/production/java/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/production/java/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/production/java/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/production/java/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/production/java/ListNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/production/java/MinStack.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/production/java/Solution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/production/java/TreeNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/production/java/TxtHandle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/production/java/data.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/production/java/demo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/production/leetcode/.idea/java.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/production/leetcode/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/production/leetcode/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/production/leetcode/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/production/leetcode/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/production/leetcode/ListNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/production/leetcode/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/production/leetcode/MaxGrade.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/production/leetcode/MinStack.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/production/leetcode/MyCode4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/production/leetcode/Solution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/production/leetcode/Tools.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/production/leetcode/TreeNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/production/leetcode/TxtHandle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/production/leetcode/data.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/production/leetcode/deleteNum.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/production/leetcode/demo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/production/leetcode/interTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/production/leetcode/jinzhi.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/production/leetcode/node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/production/leetcode/pokerCompare.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/production/leetcode/random.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/production/leetcode/shudu.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/production/leetcode/simpleErrorRecord.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/production/leetcode/stringHandle.class" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -33,80 +75,43 @@
     <session id="829384336">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="3" />
+          <entry key="project.closed" value="8" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.16" value="1" />
-          <entry key="project.open.time.17" value="1" />
+          <entry key="project.open.time.17" value="2" />
+          <entry key="project.open.time.19" value="1" />
+          <entry key="project.open.time.2" value="1" />
+          <entry key="project.open.time.20" value="1" />
+          <entry key="project.open.time.22" value="1" />
+          <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.5" value="1" />
-          <entry key="project.opened" value="4" />
+          <entry key="project.opened" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="15" />
+          <entry key="java" value="27" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="15" />
+          <entry key="JAVA" value="27" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="9438" />
+          <entry key="java" value="12647" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="9438" />
+          <entry key="JAVA" value="12647" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/java/jinzhi.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="21" column="21" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/java/deleteNum.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="14" column="44" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="44" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/java/stringHandle.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="28" column="31" selection-end-line="32" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/java/shudu.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1292">
-              <caret line="78" column="31" selection-start-line="78" selection-start-column="31" selection-end-line="78" selection-end-column="31" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/java/MaxGrade.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -125,11 +130,53 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/java/pokerCompare.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/java/leetcode/Solution.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="322">
-              <caret line="137" column="26" selection-start-line="137" selection-start-column="26" selection-end-line="137" selection-end-column="26" />
+            <state relative-caret-position="8313">
+              <caret line="489" column="21" selection-start-line="489" selection-start-column="21" selection-end-line="489" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/java/alibaba/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="374">
+              <caret line="22" column="44" selection-start-line="22" selection-start-column="4" selection-end-line="22" selection-end-column="44" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/java/alibaba/Main1.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="340">
+              <caret line="20" column="40" selection-start-line="20" selection-start-column="40" selection-end-line="20" selection-end-column="40" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/java/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="400">
+              <caret line="31" column="42" lean-forward="true" selection-start-line="31" selection-start-column="42" selection-end-line="31" selection-end-column="42" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://F:/JAVA/jdk1.8/src.zip!/java/lang/Math.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="21675">
+              <caret line="1349" selection-start-line="1349" selection-end-line="1349" />
+              <folding>
+                <element signature="e#52734#52735#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -137,8 +184,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/java/Tools.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" selection-start-line="14" selection-end-line="14" />
+            <state relative-caret-position="221">
+              <caret line="13" column="1" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -175,7 +222,13 @@
       <find>5 3 4 6 7 8 9 1 2</find>
       <find>out</find>
       <find>myPrint</find>
+      <find>]</find>
+      <find>[</find>
     </findStrings>
+    <replaceStrings>
+      <replace>}</replace>
+      <replace>{</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -183,20 +236,25 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/java/Solution.java" />
         <option value="$PROJECT_DIR$/java/interTest.java" />
         <option value="$PROJECT_DIR$/java/sudaBottle.java" />
         <option value="$PROJECT_DIR$/java/MyCode4.java" />
-        <option value="$PROJECT_DIR$/java/Main.java" />
         <option value="$PROJECT_DIR$/java/random.java" />
         <option value="$PROJECT_DIR$/java/jinzhi.java" />
         <option value="$PROJECT_DIR$/java/deleteNum.java" />
         <option value="$PROJECT_DIR$/java/stringHandle.java" />
-        <option value="$PROJECT_DIR$/java/Tools.java" />
         <option value="$PROJECT_DIR$/java/shudu.java" />
         <option value="$PROJECT_DIR$/java/MaxGrade.java" />
         <option value="$PROJECT_DIR$/java/simpleErrorRecord.java" />
         <option value="$PROJECT_DIR$/java/pokerCompare.java" />
+        <option value="$PROJECT_DIR$/java/Solution.java" />
+        <option value="$PROJECT_DIR$/java/leetcode/Tools.java" />
+        <option value="$PROJECT_DIR$/java/leetcode/Main.java" />
+        <option value="$PROJECT_DIR$/java/Tools.java" />
+        <option value="$PROJECT_DIR$/java/leetcode/Solution.java" />
+        <option value="$PROJECT_DIR$/java/alibaba/Main.java" />
+        <option value="$PROJECT_DIR$/java/alibaba/Main1.java" />
+        <option value="$PROJECT_DIR$/java/Main.java" />
       </list>
     </option>
   </component>
@@ -207,10 +265,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="28" />
-    <option name="y" value="11" />
+    <option name="x" value="-63" />
+    <option name="y" value="-22" />
     <option name="width" value="1346" />
-    <option name="height" value="728" />
+    <option name="height" value="641" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -243,13 +301,15 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1581951786397" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1595139830268" />
+    <property name="last.edited.regexp" value="Sample Text" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -263,17 +323,49 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.pokerCompare">
-    <configuration name="MaxGrade" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MaxGrade" />
+  <component name="RunManager" selected="Application.Main (1)">
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="leetcode" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Tools" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Tools" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="alibaba.Main" />
       <module name="leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="alibaba.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="alibaba.Main1" />
+      <module name="leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="alibaba.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.Solution" />
+      <module name="leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leetcode.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -285,34 +377,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="shudu" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="shudu" />
-      <module name="leetcode" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="simpleErrorRecord" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="simpleErrorRecord" />
-      <module name="leetcode" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
-      <item itemvalue="Application.shudu" />
-      <item itemvalue="Application.Tools" />
-      <item itemvalue="Application.MaxGrade" />
-      <item itemvalue="Application.simpleErrorRecord" />
       <item itemvalue="Application.pokerCompare" />
+      <item itemvalue="Application.Solution" />
+      <item itemvalue="Application.Main" />
+      <item itemvalue="Application.Main1" />
+      <item itemvalue="Application.Main (1)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main (1)" />
+        <item itemvalue="Application.Main1" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Solution" />
         <item itemvalue="Application.pokerCompare" />
-        <item itemvalue="Application.simpleErrorRecord" />
-        <item itemvalue="Application.MaxGrade" />
-        <item itemvalue="Application.shudu" />
-        <item itemvalue="Application.Tools" />
       </list>
     </recent_temporary>
   </component>
@@ -330,26 +408,34 @@
       <workItem from="1581912811275" duration="229000" />
       <workItem from="1581920047829" duration="19045000" />
       <workItem from="1582002241724" duration="935000" />
+      <workItem from="1590641095875" duration="7252000" />
+      <workItem from="1590713950775" duration="5172000" />
+      <workItem from="1590899907653" duration="271000" />
+      <workItem from="1594528963614" duration="1028000" />
+      <workItem from="1595134371342" duration="1582000" />
+      <workItem from="1595139881390" duration="299000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="50277000" />
+    <option name="totallyTimeSpent" value="65881000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="752" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13313162" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23373677" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Inspection Results" weight="0.32973805" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32973805" />
-      <window_info anchor="bottom" x="22" y="251" width="1322" height="266" id="Run" order="2" weight="0.12788907" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.33281973" />
+      <window_info anchor="bottom" x="22" y="251" width="1322" height="266" id="Run" order="2" weight="0.38366717" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.2881356" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -358,16 +444,17 @@
       <window_info anchor="bottom" id="Statistic" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.32973805" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="right" id="Database" order="5" />
-      <window_info anchor="right" id="Theme Preview" order="6" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="right" id="Maven Projects" order="8" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.3288364" />
+      <window_info anchor="right" id="Embedded Web Browser" order="0" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Theme Preview" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="Maven Projects" order="9" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -391,39 +478,30 @@
           <properties />
           <option name="timeStamp" value="9" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/java/alibaba/Main.java</url>
+          <line>33</line>
+          <properties />
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/java/alibaba/Main.java</url>
+          <line>40</line>
+          <properties />
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/java/alibaba/Main1.java</url>
+          <line>26</line>
+          <properties />
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/java/Solution.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
-          <caret line="802" column="8" selection-start-line="802" selection-start-column="8" selection-end-line="802" selection-end-column="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#10026#10041#0" expanded="true" />
-            <element signature="e#11380#11395#0" expanded="true" />
-            <element signature="e#12600#12615#0" expanded="true" />
-            <element signature="e#23448#23456#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/java/sudaBottle.java" />
-    <entry file="file://$PROJECT_DIR$/java/interTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="884">
-          <caret line="52" selection-start-line="52" selection-end-line="52" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/java/interTest.java" />
     <entry file="file://$PROJECT_DIR$/java/random.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
@@ -431,17 +509,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/java/jinzhi.java">
+    <entry file="file://$PROJECT_DIR$/java/jinzhi.java" />
+    <entry file="file://$PROJECT_DIR$/java/deleteNum.java" />
+    <entry file="file://$PROJECT_DIR$/java/pokerCompare.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="21" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="21" />
+        <state relative-caret-position="2158">
+          <caret line="137" column="26" selection-start-line="137" selection-start-column="26" selection-end-line="137" selection-end-column="26" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/java/deleteNum.java">
+    <entry file="file://$PROJECT_DIR$/java/Solution.java" />
+    <entry file="file://$PROJECT_DIR$/java/leetcode/Tools.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="14" column="44" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="44" />
+        <state>
+          <caret column="17" selection-start-column="17" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java/leetcode/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="11" lean-forward="true" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="11" />
         </state>
       </provider>
     </entry>
@@ -449,9 +537,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="425">
           <caret line="28" column="31" selection-end-line="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -479,10 +564,41 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/java/leetcode/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="8313">
+          <caret line="489" column="21" selection-start-line="489" selection-start-column="21" selection-end-line="489" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java/alibaba/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="44" selection-start-line="22" selection-start-column="4" selection-end-line="22" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java/alibaba/Main1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="40" selection-start-line="20" selection-start-column="40" selection-end-line="20" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://F:/JAVA/jdk1.8/src.zip!/java/lang/Math.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21675">
+          <caret line="1349" selection-start-line="1349" selection-end-line="1349" />
+          <folding>
+            <element signature="e#52734#52735#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/java/Tools.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        <state relative-caret-position="221">
+          <caret line="13" column="1" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
         </state>
       </provider>
     </entry>
@@ -500,10 +616,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/java/pokerCompare.java">
+    <entry file="file://$PROJECT_DIR$/java/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="137" column="26" selection-start-line="137" selection-start-column="26" selection-end-line="137" selection-end-column="26" />
+        <state relative-caret-position="400">
+          <caret line="31" column="42" lean-forward="true" selection-start-line="31" selection-start-column="42" selection-end-line="31" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

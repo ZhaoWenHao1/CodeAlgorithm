@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class Tools {
-    public static void main(String[] args) {
+    public static void main() {
         Scanner sc = new Scanner(System.in);
         while(sc.hasNext())
         {
