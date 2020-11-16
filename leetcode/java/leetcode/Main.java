@@ -10,6 +10,8 @@ import java.util.Scanner;
 class Node{
     int n;
     Node next;
+    Node left;
+    Node right;
     Node(int v){
         this.n = v;
     }

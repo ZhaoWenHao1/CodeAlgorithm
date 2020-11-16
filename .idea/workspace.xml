@@ -2,60 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="20bdf551-11b7-4f5c-8171-974c5a942885" name="Default Changelist" comment="deadline">
-      <change afterPath="$PROJECT_DIR$/leetcode/java/leetcode/FourSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/java/leetcode/PermuteUnique.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/java/leetcode/SuperEggDrop.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/java/leetcode/Tools.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/java/leetcode/TrieTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/java/leetcode/kuaishou/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/java/leetcode/pinduoduo/Game.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/java/leetcode/pinduoduo/LuckyNum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/java/leetcode/pinduoduo/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/java/leetcode/zijie/CutOff.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/java/leetcode/zijie/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/java/leetcode/zijie/Mubang.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/java/leetcode/zijie/Stand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/java/xiecheng/T1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/java/xiecheng/t3/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/leetcode/java/leetcode/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/java/leetcode/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/output/production/java/.idea/java.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/CodeAlgorithm.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/output/production/java/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/output/production/java/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/output/production/java/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/output/production/java/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/output/production/java/ListNode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/output/production/java/MinStack.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/output/production/java/Solution.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/output/production/java/TreeNode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/output/production/java/TxtHandle.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/output/production/java/data.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/output/production/java/demo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/output/production/leetcode/.idea/java.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/output/production/leetcode/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/output/production/leetcode/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/output/production/leetcode/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/output/production/leetcode/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/output/production/leetcode/ListNode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/output/production/leetcode/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/output/production/leetcode/MaxGrade.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/output/production/leetcode/MinStack.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/output/production/leetcode/MyCode4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/output/production/leetcode/Solution.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/output/production/leetcode/Tools.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/output/production/leetcode/TreeNode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/output/production/leetcode/TxtHandle.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/output/production/leetcode/data.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/output/production/leetcode/deleteNum.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/output/production/leetcode/demo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/output/production/leetcode/interTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/output/production/leetcode/jinzhi.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/output/production/leetcode/node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/output/production/leetcode/pokerCompare.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/output/production/leetcode/random.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/output/production/leetcode/shudu.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/output/production/leetcode/simpleErrorRecord.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/output/production/leetcode/stringHandle.class" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -74,10 +24,10 @@
     <session id="-181133053">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="8" />
-          <entry key="project.open.time.1" value="2" />
+          <entry key="project.closed" value="10" />
+          <entry key="project.open.time.1" value="3" />
           <entry key="project.open.time.13" value="1" />
-          <entry key="project.open.time.15" value="2" />
+          <entry key="project.open.time.15" value="3" />
           <entry key="project.open.time.18" value="1" />
           <entry key="project.open.time.19" value="1" />
           <entry key="project.open.time.2" value="1" />
@@ -86,20 +36,20 @@
           <entry key="project.open.time.26" value="1" />
           <entry key="project.open.time.27" value="1" />
           <entry key="project.open.time.32" value="1" />
-          <entry key="project.opened" value="13" />
+          <entry key="project.opened" value="15" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="ft" value="18" />
-          <entry key="java" value="33857" />
+          <entry key="java" value="34461" />
           <entry key="md" value="22" />
           <entry key="txt" value="39" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="33857" />
+          <entry key="JAVA" value="34461" />
           <entry key="Markdown" value="22" />
           <entry key="PLAIN_TEXT" value="39" />
           <entry key="VTL" value="18" />
@@ -108,14 +58,14 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="2" />
-          <entry key="java" value="84" />
+          <entry key="java" value="85" />
           <entry key="md" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="2" />
-          <entry key="JAVA" value="84" />
+          <entry key="JAVA" value="85" />
           <entry key="Markdown" value="1" />
         </counts>
       </usages-collector>
@@ -126,18 +76,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/leetcode/java/leetcode/pinduoduo/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1003">
-              <caret line="60" column="27" selection-start-line="60" selection-start-column="27" selection-end-line="60" selection-end-column="27" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/leetcode/java/leetcode/FourSum.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -195,14 +133,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/leetcode/java/leetcode/zijie/Stand.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="566">
+            <state relative-caret-position="1173">
               <caret line="70" column="10" selection-start-line="70" selection-start-column="10" selection-end-line="70" selection-end-column="10" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/leetcode/java/leetcode/Solution.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="334">
+              <caret line="445" column="39" selection-start-line="445" selection-start-column="39" selection-end-line="445" selection-end-column="39" />
             </state>
           </provider>
         </entry>
@@ -310,7 +257,6 @@
         <option value="$PROJECT_DIR$/leetcode/java/xiecheng/Main.java" />
         <option value="$PROJECT_DIR$/leetcode/java/xiecheng/t3/Main.java" />
         <option value="$PROJECT_DIR$/leetcode/java/leetcode/Tools.java" />
-        <option value="$PROJECT_DIR$/leetcode/java/leetcode/Solution.java" />
         <option value="$PROJECT_DIR$/leetcode/java/leetcode/pinduoduo/LuckyNum.java" />
         <option value="$PROJECT_DIR$/leetcode/java/leetcode/pinduoduo/Game.java" />
         <option value="$PROJECT_DIR$/leetcode/java/leetcode/SuperEggDrop.java" />
@@ -321,6 +267,7 @@
         <option value="$PROJECT_DIR$/leetcode/java/leetcode/zijie/Mubang.java" />
         <option value="$PROJECT_DIR$/leetcode/java/leetcode/zijie/CutOff.java" />
         <option value="$PROJECT_DIR$/leetcode/java/leetcode/zijie/Stand.java" />
+        <option value="$PROJECT_DIR$/leetcode/java/leetcode/Solution.java" />
       </list>
     </option>
   </component>
@@ -344,6 +291,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -381,21 +330,19 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1586697303372" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1599649413163" />
     <property name="last_opened_file_path" value="$USER_HOME$/Desktop/springboot-weapp-demo-master" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="fileTemplates" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -409,7 +356,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Stand">
+  <component name="RunManager" selected="Application.Solution">
     <configuration name="CutOff" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="zijie.CutOff" />
       <module name="CodeAlgorithm" />
@@ -419,13 +366,6 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FourSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="FourSum" />
-      <module name="CodeAlgorithm" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -456,6 +396,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Solution" />
+      <module name="CodeAlgorithm" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Stand" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="zijie.Stand" />
       <module name="CodeAlgorithm" />
@@ -470,19 +417,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.FourSum" />
       <item itemvalue="Application.Main" />
       <item itemvalue="Application.Main (2)" />
       <item itemvalue="Application.CutOff" />
       <item itemvalue="Application.Stand" />
+      <item itemvalue="Application.Solution" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Solution" />
         <item itemvalue="Application.Stand" />
         <item itemvalue="Application.CutOff" />
         <item itemvalue="Application.Main (2)" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.FourSum" />
       </list>
     </recent_temporary>
   </component>
@@ -512,6 +459,8 @@
       <workItem from="1586508470955" duration="9090000" />
       <workItem from="1586613309957" duration="22425000" />
       <workItem from="1587571466317" duration="115000" />
+      <workItem from="1599295974144" duration="1075000" />
+      <workItem from="1599297095768" duration="3076000" />
     </task>
     <task id="LOCAL-00001" summary="lis 5">
       <created>1584029737559</created>
@@ -552,12 +501,12 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="151041000" />
+    <option name="totallyTimeSpent" value="155192000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49885583" visible="true" weight="0.1913767" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49885583" visible="true" weight="0.19742814" />
       <window_info id="Structure" order="1" sideWeight="0.5011442" side_tool="true" weight="0.25718608" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -566,7 +515,7 @@
       <window_info id="Favorites" order="6" sideWeight="0.5011442" side_tool="true" weight="0.25718608" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.28659475" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.28505394" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3312789" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -874,9 +823,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1462">
           <caret line="88" column="49" selection-start-line="88" selection-start-column="49" selection-end-line="88" selection-end-column="49" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -884,9 +830,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="646">
           <caret line="39" selection-start-line="39" selection-end-line="39" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -894,13 +837,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="765">
           <caret line="45" column="43" selection-start-line="45" selection-start-column="16" selection-end-line="45" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/leetcode/java/leetcode/Solution.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-column="19" />
         </state>
       </provider>
     </entry>
@@ -922,9 +858,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="14" column="47" selection-start-line="13" selection-start-column="8" selection-end-line="14" selection-end-column="47" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -992,6 +925,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/leetcode/java/leetcode/zijie/Stand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1173">
+          <caret line="70" column="10" selection-start-line="70" selection-start-column="10" selection-end-line="70" selection-end-column="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="jar://F:/JAVA/jdk1.8/src.zip!/java/util/Stack.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1326">
@@ -1013,13 +956,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/leetcode/java/leetcode/zijie/Stand.java">
+    <entry file="file://$PROJECT_DIR$/leetcode/java/leetcode/Solution.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="566">
-          <caret line="70" column="10" selection-start-line="70" selection-start-column="10" selection-end-line="70" selection-end-column="10" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="334">
+          <caret line="445" column="39" selection-start-line="445" selection-start-column="39" selection-end-line="445" selection-end-column="39" />
         </state>
       </provider>
     </entry>

@@ -37,11 +37,14 @@ public class Divide {
         return count+div(a-tb,b);
     }
 
+
+
     public static void main(String[] args) {
         Divide divide = new Divide();
         Scanner sc = new Scanner(System.in);
-        int a = sc.nextInt(),b = sc.nextInt();
+        int a = Integer.MAX_VALUE,b = 2;
         System.out.println(divide.divide(a,b));
+        System.out.println(1073741823 * 2 + 1 == a);
     }
 
 }
