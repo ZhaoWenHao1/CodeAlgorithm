@@ -14,6 +14,11 @@ import static leetcode.RMQ.monotonicStack;
 public class MctFromLeafValues {
 
 
+    /**
+     * 区间dp  O(n^3)
+     * @param arr
+     * @return
+     */
     public int mctFromLeafValues(int[] arr) {
         int n = arr.length;
         int[][] cost = new int[n][n];
@@ -33,9 +38,43 @@ public class MctFromLeafValues {
         return cost[0][n-1];
     }
 
+    /**
+     * 单调栈 O(n)
+     * @param arr
+     * @return
+     */
+    public int mctFromLeafValuesStack(int[] arr){
+        int res = 0;
+        // 单调递减栈
+        Stack<Integer> stack = new Stack<>();
+        int len = arr.length;
+        stack.push(Integer.MAX_VALUE);
+        int[] nums = new int[arr.length+1];
+        for(int i = 0;i < arr.length;i++){
+            nums[i] = arr[i];
+        }
+        nums[arr.length] = Integer.MAX_VALUE;
+        for(int i = 0;i < nums.length;i++){
+            if(stack.size() == 1 || stack.peek() > nums[i]){
+                stack.push(nums[i]);
+            }
+            else{
+
+                int t = stack.pop();
+                if(i == nums.length - 1 && stack.size() == 1){
+                    break;
+                }
+                res += Math.min(nums[i], stack.peek()) * t;
+                i--;
+            }
+        }
+        return res;
+
+    }
+
     public static void main(String[] args) {
         MctFromLeafValues mctFromLeafValues = new MctFromLeafValues();
         int[] arr = {6,2,4};
-        System.out.println(mctFromLeafValues.mctFromLeafValues(arr));
+        System.out.println(mctFromLeafValues.mctFromLeafValuesStack(arr));
     }
 }

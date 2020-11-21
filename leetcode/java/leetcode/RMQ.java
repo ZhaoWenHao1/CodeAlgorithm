@@ -10,7 +10,7 @@ import java.util.Stack;
  * @question RMQ问题  Range Maximum Query 求区间[i,j]的最大值
  */
 public class RMQ {
-    static int[][] f;
+    static int[][] f;  // f[i][j]表示区间[i,j]内的最大值
 
     public static void monotonicStack(int[] nums) {
         int len = nums.length;
@@ -190,7 +190,7 @@ public class RMQ {
 
     public static void main(String[] args) {
 
-        test();
+//        test();
 //        Scanner sc = new Scanner(System.in);
 //        int t = sc.nextInt();
 //        while (t-- > 0) {
@@ -207,5 +207,29 @@ public class RMQ {
 //                System.out.println(STQuery(i - 1, j - 1));
 //            }
 //        }
+        int[] nums = {22,41,53,46,30,13,1,67,51};
+        int[] hashTable = new int[13];
+        for(int i = 0;i < nums.length;i++){
+            int hash = (3 * nums[i]) % 13;
+            if(hashTable[hash] == 0){
+                hashTable[hash] = nums[i];
+            }
+            else{
+                while(true){
+                    hash = (hash+1)%nums.length;
+                    if(hashTable[hash] == 0){
+                        hashTable[hash] = nums[i];
+                        break;
+                    }
+                }
+            }
+        }
+        for(int i = 0;i < hashTable.length;i++){
+            System.out.print(i + "\t");
+        }
+        System.out.println();
+        for(int i = 0;i < hashTable.length;i++){
+            System.out.print(hashTable[i] + "\t");
+        }
     }
 }
