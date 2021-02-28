@@ -2,12 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="20bdf551-11b7-4f5c-8171-974c5a942885" name="Default Changelist" comment="deadline">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/java/Conundrum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/CodeAlgorithm.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/CodeAlgorithm.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/java/leetcode/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/java/leetcode/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/java/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/java/leetcode/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/java/leetcode/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodeAlgorithm/Divide.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodeAlgorithm/Divide.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodeAlgorithm/Solution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodeAlgorithm/TreeNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodeAlgorithm/TreeNode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodeAlgorithm/leetcode/node.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodeAlgorithm/leetcode/node.class" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -19,57 +24,6 @@
   <component name="CoverageViewManager">
     <option name="myAutoScrollToSource" value="true" />
     <option name="myElementSize" value="414" />
-  </component>
-  <component name="FUSProjectUsageTrigger">
-    <session id="-181133053">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.closed" value="10" />
-          <entry key="project.open.time.1" value="3" />
-          <entry key="project.open.time.13" value="1" />
-          <entry key="project.open.time.15" value="3" />
-          <entry key="project.open.time.18" value="1" />
-          <entry key="project.open.time.19" value="1" />
-          <entry key="project.open.time.2" value="1" />
-          <entry key="project.open.time.21" value="1" />
-          <entry key="project.open.time.22" value="1" />
-          <entry key="project.open.time.26" value="1" />
-          <entry key="project.open.time.27" value="1" />
-          <entry key="project.open.time.32" value="1" />
-          <entry key="project.opened" value="15" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="ft" value="18" />
-          <entry key="java" value="34461" />
-          <entry key="md" value="22" />
-          <entry key="txt" value="39" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="JAVA" value="34461" />
-          <entry key="Markdown" value="22" />
-          <entry key="PLAIN_TEXT" value="39" />
-          <entry key="VTL" value="18" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="class" value="2" />
-          <entry key="java" value="85" />
-          <entry key="md" value="1" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="CLASS" value="2" />
-          <entry key="JAVA" value="85" />
-          <entry key="Markdown" value="1" />
-        </counts>
-      </usages-collector>
-    </session>
   </component>
   <component name="FavoritesManager">
     <favorites_list name="CodeAlgorithm" />
@@ -155,7 +109,7 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://F:/JAVA/jdk1.8/src.zip!/java/util/Stack.java">
+        <entry file="jar://$PROJECT_DIR$/../../JAVA/jdk1.8/src.zip!/java/util/Stack.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="1326">
               <caret line="101" selection-start-line="101" selection-end-line="101" />
@@ -164,7 +118,7 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://F:/JAVA/jdk1.8/src.zip!/java/util/List.java">
+        <entry file="jar://$PROJECT_DIR$/../../JAVA/jdk1.8/src.zip!/java/util/List.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="4811">
               <caret line="306" column="16" selection-start-line="306" selection-start-column="16" selection-end-line="306" selection-end-column="16" />
@@ -283,6 +237,7 @@
     <option name="width" value="1380" />
     <option name="height" value="752" />
   </component>
+  <component name="ProjectId" id="1mGNYr6GBYAyFwBi9sH1LLkT5C3" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
@@ -332,11 +287,18 @@
       </pane>
     </panes>
   </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1599649413163" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/springboot-weapp-demo-master" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -344,19 +306,7 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager" selected="Application.Solution">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="CutOff" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="zijie.CutOff" />
       <module name="CodeAlgorithm" />
@@ -370,25 +320,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="zijie.Main" />
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="CodeAlgorithm" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="zijie.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="kuaishou.Main" />
+      <option name="MAIN_CLASS_NAME" value="leetcode.Main" />
       <module name="CodeAlgorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="kuaishou.*" />
+          <option name="PATTERN" value="leetcode.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -417,22 +361,23 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Main" />
-      <item itemvalue="Application.Main (2)" />
       <item itemvalue="Application.CutOff" />
       <item itemvalue="Application.Stand" />
       <item itemvalue="Application.Solution" />
+      <item itemvalue="Application.Main (1)" />
+      <item itemvalue="Application.Main" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Solution" />
         <item itemvalue="Application.Stand" />
         <item itemvalue="Application.CutOff" />
-        <item itemvalue="Application.Main (2)" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="StructureViewFactory">
     <option name="ACTIVE_ACTIONS" value=",SHOW_PROPERTIES" />
   </component>
@@ -461,6 +406,14 @@
       <workItem from="1587571466317" duration="115000" />
       <workItem from="1599295974144" duration="1075000" />
       <workItem from="1599297095768" duration="3076000" />
+      <workItem from="1609116018972" duration="6564000" />
+      <workItem from="1609206854005" duration="9000" />
+      <workItem from="1609206885115" duration="3000" />
+      <workItem from="1609206956866" duration="7000" />
+      <workItem from="1609225550821" duration="1093000" />
+      <workItem from="1610279011748" duration="7321000" />
+      <workItem from="1614405827704" duration="5022000" />
+      <workItem from="1614493945134" duration="682000" />
     </task>
     <task id="LOCAL-00001" summary="lis 5">
       <created>1584029737559</created>
@@ -572,10 +525,7 @@
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
-  </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
+    <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="lis 5" />
@@ -591,25 +541,21 @@
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/leetcode/java/leetcode/Easy.java</url>
           <line>23</line>
-          <properties />
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/leetcode/java/leetcode/Easy.java</url>
           <line>22</line>
-          <properties />
           <option name="timeStamp" value="2" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/leetcode/java/leetcode/FourSum.java</url>
           <line>54</line>
-          <properties />
           <option name="timeStamp" value="4" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/leetcode/java/leetcode/FourSum.java</url>
           <line>70</line>
-          <properties />
           <option name="timeStamp" value="5" />
         </line-breakpoint>
       </breakpoints>
@@ -690,49 +636,49 @@
     <entry file="file://$PROJECT_DIR$/leetcode/java/leetcode/meituan/Main.java" />
     <entry file="file://$PROJECT_DIR$/leetcode/java/leetcode/meituan/meituan2/Main.java" />
     <entry file="file://$PROJECT_DIR$/leetcode/java/leetcode/meituan3/Main.java" />
-    <entry file="jar://F:/JAVA/jdk1.8/src.zip!/java/util/AbstractCollection.java">
+    <entry file="jar://$PROJECT_DIR$/../../JAVA/jdk1.8/src.zip!/java/util/AbstractCollection.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="174">
           <caret line="60" column="22" selection-start-line="60" selection-start-column="22" selection-end-line="60" selection-end-column="40" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://F:/JAVA/jdk1.8/src.zip!/java/util/AbstractList.java">
+    <entry file="jar://$PROJECT_DIR$/../../JAVA/jdk1.8/src.zip!/java/util/AbstractList.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="174">
           <caret line="70" column="56" selection-start-line="70" selection-start-column="56" selection-end-line="70" selection-end-column="56" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://F:/JAVA/jdk1.8/src.zip!/java/util/AbstractSequentialList.java">
+    <entry file="jar://$PROJECT_DIR$/../../JAVA/jdk1.8/src.zip!/java/util/AbstractSequentialList.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="174">
           <caret line="68" column="62" lean-forward="true" selection-start-line="68" selection-start-column="62" selection-end-line="68" selection-end-column="62" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://F:/JAVA/jdk1.8/src.zip!/java/util/LinkedList.java">
+    <entry file="jar://$PROJECT_DIR$/../../JAVA/jdk1.8/src.zip!/java/util/LinkedList.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="361">
           <caret line="83" column="27" lean-forward="true" selection-start-line="83" selection-start-column="27" selection-end-line="83" selection-end-column="27" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://F:/JAVA/jdk1.8/src.zip!/java/util/Set.java">
+    <entry file="jar://$PROJECT_DIR$/../../JAVA/jdk1.8/src.zip!/java/util/Set.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="123">
           <caret line="118" column="12" selection-start-line="118" selection-start-column="12" selection-end-line="118" selection-end-column="12" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://F:/JAVA/jdk1.8/src.zip!/java/lang/Object.java">
+    <entry file="jar://$PROJECT_DIR$/../../JAVA/jdk1.8/src.zip!/java/lang/Object.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="259">
           <caret line="99" column="22" selection-start-line="99" selection-start-column="22" selection-end-line="99" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://F:/JAVA/jdk1.8/src.zip!/java/util/HashSet.java">
+    <entry file="jar://$PROJECT_DIR$/../../JAVA/jdk1.8/src.zip!/java/util/HashSet.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="157">
           <caret line="203" column="23" selection-start-line="203" selection-start-column="23" selection-end-line="203" selection-end-column="23" />
@@ -749,7 +695,7 @@
     <entry file="file://$PROJECT_DIR$/leetcode/java/leetcode/Divide.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="jar://F:/JAVA/jdk1.8/src.zip!/java/util/HashMap.java">
+    <entry file="jar://$PROJECT_DIR$/../../JAVA/jdk1.8/src.zip!/java/util/HashMap.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="9826">
           <caret line="624" column="12" selection-start-line="624" selection-start-column="12" selection-end-line="624" selection-end-column="12" />
@@ -861,7 +807,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://F:/JAVA/jdk1.8/src.zip!/java/util/ArrayList.java">
+    <entry file="jar://$PROJECT_DIR$/../../JAVA/jdk1.8/src.zip!/java/util/ArrayList.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="189">
           <caret line="579" column="25" selection-start-line="579" selection-start-column="19" selection-end-line="579" selection-end-column="25" />
@@ -935,14 +881,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://F:/JAVA/jdk1.8/src.zip!/java/util/Stack.java">
+    <entry file="jar://$PROJECT_DIR$/../../JAVA/jdk1.8/src.zip!/java/util/Stack.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1326">
           <caret line="101" selection-start-line="101" selection-end-line="101" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://F:/JAVA/jdk1.8/src.zip!/java/util/List.java">
+    <entry file="jar://$PROJECT_DIR$/../../JAVA/jdk1.8/src.zip!/java/util/List.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="4811">
           <caret line="306" column="16" selection-start-line="306" selection-start-column="16" selection-end-line="306" selection-end-column="16" />
